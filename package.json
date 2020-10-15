@@ -1,9 +1,9 @@
 {
-  "name": "name",
-  "version": "0.0.0",
-  "description": "",
+  "name": "111",
+  "version": "222",
   "main": "dist/index.js",
   "scripts": {
+    "initConfig": "node init.js",
     "generate": "npx nit-iconfont-h5",
     "build": "rollup -c ./rollup.config.js"
   },
@@ -12,9 +12,6 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "colors": "^1.4.0",
-    "inquirer": "^7.1.0",
-    "nit-iconfont-cli": "^1.0.0",
     "@babel/core": "^7.10.0",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/plugin-proposal-decorators": "^7.10.0",
@@ -25,6 +22,10 @@
     "@babel/preset-react": "^7.10.0",
     "@babel/runtime": "7.1.2",
     "@rollup/plugin-node-resolve": "^8.0.0",
+    "colors": "^1.4.0",
+    "inquirer": "^7.1.0",
+    "jsonfile": "^6.0.1",
+    "nit-iconfont-cli": "^1.0.0",
     "rollup": "^2.10.9",
     "rollup-plugin-ascii": "^0.0.3",
     "rollup-plugin-babel": "^4.4.0",
